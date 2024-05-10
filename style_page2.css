@@ -1,0 +1,76 @@
+
+header {
+    padding: 60px;
+    text-align: center;
+    background:black;
+    color: red;
+    font-size: 50px;
+    font-style:oblique;
+  
+ }
+  body {
+   
+    text-align: center;
+        background-image: url(/guntersEcoTourism/images/mountainview.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:cover;
+        background-attachment: fixed;
+      }   
+    
+.column {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    height: 100px; 
+    margin: auto;
+    
+  }
+  
+ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  img#cabinLakeFront {
+
+    width: 400px;
+    border-top: 40px;
+    border-bottom: 40px;
+    border-left: 40px;
+    border-right: 40px;
+    border-style: groove;
+    border-color: red;
+    }
+
+
+
+
+
+
+
+
+  p {
+    background-color: yellow;
+    background-size:cover;
+    background-position:center;
+    font-family: 'Times New Roman', Times, serif;
+    
+    }
+    @media print {
+        footer {page-break-after: always;}
+      }
+
+
+    footer {
+
+        padding: 60px;
+        text-align: center;
+        background:black;
+        color: red;
+        font-size: 50px;
+        font-style:oblique;
+      
+    
+     }

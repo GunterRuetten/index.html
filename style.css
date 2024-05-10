@@ -1,0 +1,75 @@
+
+          
+ header {
+    padding: 60px;
+    text-align: center;
+    background:black;
+    color: red;
+    font-size: 50px;
+    font-style:oblique;
+  
+ }
+body {
+   
+    text-align: center;
+        background-image: url(/guntersEcoTourism/images/mountainview.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:cover;
+        background-attachment: fixed;
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto auto ;
+            gap: 10px;
+            background-color: black;
+            padding: 10px;
+            color: yellow;
+          }
+        }
+ 
+ img#winterCabin    {
+        width: 400px;
+        border-top: 40px;
+        border-bottom: 40px;
+        border-left: 40px;
+        border-right: 40px;
+        border-style: groove;
+        border-color: red;
+    }        
+
+ img#moss_photo {
+        width: 400px;
+        border-top: 40px;
+        border-bottom: 40px;
+        border-left: 40px;
+        border-right: 40px;
+        border-style: groove;
+        border-color: red;
+        float: none;
+        float:left;
+        overflow: auto;
+ }
+
+p {
+    background-color: yellow;
+    background-size:cover;
+    background-position:center;
+    font-family: 'Times New Roman', Times, serif;
+    
+ }
+
+ @media print {
+    footer {page-break-after: always;}
+  }
+ footer {
+
+    padding: 60px;
+    text-align: center;
+    background:black;
+    color: red;
+    font-size: 50px;
+    font-style:oblique;
+  
+
+ }
